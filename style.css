@@ -1,0 +1,106 @@
+/* General body styling */
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #000; /* Black background */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+/* Container for the login box */
+.login-container {
+	width: 350px;
+	padding: 20px;
+	background-color: #222; /* Darker grey for the box */
+	border-radius: 8px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Stronger shadow for contrast */
+	text-align: center;
+}
+
+/* Heading style */
+.login-container h1 {
+	font-size: 24px;
+	color: #fff; /* White text for heading */
+	margin-bottom: 20px;
+}
+
+/* Form input styling */
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group input {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #444; /* Darker border for inputs */
+	background-color: #333; /* Dark background for inputs */
+	color: #eee; /* Light text color in inputs */
+	border-radius: 6px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+/* Placeholder text color */
+.form-group input::placeholder {
+	color: #aaa;
+}
+
+/* Password input group styling to position the eye icon */
+.password-group {
+	position: relative;
+}
+
+/* Styling for the eye icon */
+.toggle-password {
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	color: #90949c; /* Keep eye icon visible */
+}
+
+/* Link styling */
+.form-link a, .signup-link a {
+	text-decoration: none;
+	color: #fe2c55; /* TikTok red for links */
+	font-weight: 500;
+}
+
+.form-link a:hover, .signup-link a:hover {
+	text-decoration: underline;
+}
+
+.form-link {
+	text-align: right; /* Aligned to right as in your example */
+	margin-bottom: 15px;
+	font-size: 14px; /* Slightly smaller for the "Forgot password?" link */
+	color: #fe2c55; /* TikTok red */
+}
+
+/* Login button styling */
+.login-btn {
+	width: 100%;
+	padding: 12px;
+	background-color: #fe2c55; /* TikTok red for the button */
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+	background-color: #d8244a; /* Slightly darker red on hover */
+}
+
+/* Sign-up link styling */
+.signup-link {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #eee; /* Light gray for "Don't have an account?" text */
+}
